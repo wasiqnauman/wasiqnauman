@@ -8,7 +8,7 @@
 
 </div>
 
-I turn machine-learning ideas into measured systems: inference infrastructure, agentic tooling, and recommendation pipelines. I am interested in PhD research at the intersection of **efficient ML systems**, **agentic AI**, and **reliable model deployment**.
+I turn machine-learning ideas into measured systems: inference infrastructure, agentic tooling, and recommendation pipelines. I am interested in research at the intersection of **efficient ML systems**, **agentic AI**, and **reliable model deployment**.
 
 ## Open-source impact
 
