@@ -12,7 +12,7 @@ I turn machine-learning ideas into measured systems: inference infrastructure, a
 
 ## Open-source impact
 
-I contribute to [Code Puppy](https://github.com/mpfaffenberger/code_puppy), an open-source agentic coding system:
+I contribute to [Code Puppy](https://github.com/mpfaffenberger/code_puppy), a widely-used, actively maintained agentic AI coding assistant (170,000+ Downloads, Python, 800+ ⭐, 260+ forks).
 
 - **[Synthetic provider integration](https://github.com/mpfaffenberger/code_puppy/pull/192)** — shipped provider status commands and a quota client, making model availability and usage limits observable from the agent CLI.
 - **[Cross-platform tool reliability](https://github.com/mpfaffenberger/code_puppy/pull/339)** — fixed a Windows parsing bug that corrupted regex backslashes and file paths before they reached ripgrep, causing valid searches to silently return no matches.
