@@ -27,9 +27,14 @@ I contribute to [Code Puppy](https://github.com/mpfaffenberger/code_puppy), a wi
 
 ## Questions I want to pursue
 
-- How can scheduling and batching improve inference throughput without violating latency targets?
-- How do we make autonomous agents dependable across models, tools, providers, and operating systems?
-- Which systems optimizations meaningfully improve the quality–latency–cost frontier?
+1. How can AI agents detect and recover from mistakes during long, multistep tasks with minimal human supervision?
+     Small reasoning errors can compound into failed tasks; agents need reliable verification, error correction, and oversight.
+
+  2. How can we reduce the compute, memory, and energy required for AI reasoning while preserving accuracy?
+     More capable reasoning must become affordable to run at scale, creating research opportunities in algorithms, model compression, and hardware-aware systems.
+
+  4. How can AI choose the next scientific experiment to maximize discovery from limited data and laboratory budgets?
+     Useful scientific AI must identify promising experiments and produce discoveries that survive physical validation.
 
 **Working with:** Python · C++ · PyTorch · FastAPI · vLLM · Triton · LangChain · Docker · AWS
 
