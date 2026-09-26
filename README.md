@@ -4,7 +4,7 @@
 
 **Applied AI Engineer** · efficient ML systems · LLM inference infrastructure · agentic AI
 
-[Portfolio](https://wasiqnauman.github.io/) · [Email](mailto:wasiq.qureshi@hotmail.com) · Redmond, WA
+[Portfolio](https://wasiqnauman.github.io/) · [Email](mailto:wasiq.qureshi@hotmail.com) 
 
 </div>
 
