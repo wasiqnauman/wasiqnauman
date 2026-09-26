@@ -44,7 +44,7 @@
 
 ### ⚡ VeloInference — async dynamic-batching inference gateway
 
-**[Code](https://github.com/wasiqnauman/veloinference)** · **[Paper](https://github.com/wasiqnauman/veloinference/blob/main/paper/main.tex)** · **[Analysis JSON](https://github.com/wasiqnauman/veloinference/blob/main/results/summaries/generated/exp003-analysis.json)** · Qwen2.5-1.5B · RTX 3060
+**[Code](https://github.com/wasiqnauman/veloinference)** · **[Paper](https://github.com/wasiqnauman/veloinference/blob/main/paper/main.pdf)** · **[Analysis JSON](https://github.com/wasiqnauman/veloinference/blob/main/results/summaries/generated/exp003-analysis.json)** · Qwen2.5-1.5B · RTX 3060
 
 <p>
 <img alt="Requests" src="https://img.shields.io/badge/requests-6%2C912-blue">
