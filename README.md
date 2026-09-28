@@ -19,7 +19,7 @@
 |  **#163** ✅&nbsp;merged  | **[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)** · **24.1k ★** · 2.1k forks              | Shipped configurable option-label overrides for a non-autoregressive decision engine serving **100+ languages**. Pre-inference validation; default path stays byte-for-byte compatible.                    |
 |  **#339** ✅&nbsp;merged  | **[mpfaffenberger/code_puppy](https://github.com/mpfaffenberger/code_puppy)** · 822 ★ · 170k+ downloads | Fixed a Windows ripgrep bug where `shlex.split` corrupted regex (`\b`, `\d+`) and paths (`C:\Users`) → **silent zero-match results**. Backslashes preserved, real errors surfaced, regression tests added. |
 |  **#192** ✅&nbsp;merged  | **[mpfaffenberger/code_puppy](https://github.com/mpfaffenberger/code_puppy)** · 822 ★ · 170k+ downloads | Built the Synthetic provider status plugin + authenticated quota client — live usage limits, remaining quota, and renewal time from the agent CLI.                                                         |
-| **#63** 🔄&nbsp;in review | **[code_puppy_core_plugins](https://github.com/mpfaffenberger/code_puppy_core_plugins)**                | Removed scan-time code execution from the tool registry: static AST parsing of metadata, deferred imports, `sys.path` precedence preserved, partial-module cleanup on failure. **47 tests** passing.       |
+| **#63** ✅&nbsp;merged | **[code_puppy_core_plugins](https://github.com/mpfaffenberger/code_puppy_core_plugins)**                | Removed scan-time code execution from the tool registry: static AST parsing of metadata, deferred imports, `sys.path` precedence preserved, partial-module cleanup on failure. **47 tests** passing.       |
 
 ---
 
