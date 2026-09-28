@@ -12,14 +12,15 @@
 
 ## Open Source Contributions
 
-**Patches merged into production systems used by thousands of developers.**
+**Patches contributed to production systems used by thousands of developers.**
 
 |            PR             | Repository                                                                                              | Impact                                                                                                                                                                                                     |
 | :-----------------------: | :------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |  **#163** ✅&nbsp;merged  | **[NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)** · **24.1k ★** · 2.1k forks              | Shipped configurable option-label overrides for a non-autoregressive decision engine serving **100+ languages**. Pre-inference validation; default path stays byte-for-byte compatible.                    |
-|  **#339** ✅&nbsp;merged  | **[mpfaffenberger/code_puppy](https://github.com/mpfaffenberger/code_puppy)** · 822 ★ · 170k+ downloads | Fixed a Windows ripgrep bug where `shlex.split` corrupted regex (`\b`, `\d+`) and paths (`C:\Users`) → **silent zero-match results**. Backslashes preserved, real errors surfaced, regression tests added. |
-|  **#192** ✅&nbsp;merged  | **[mpfaffenberger/code_puppy](https://github.com/mpfaffenberger/code_puppy)** · 822 ★ · 170k+ downloads | Built the Synthetic provider status plugin + authenticated quota client — live usage limits, remaining quota, and renewal time from the agent CLI.                                                         |
+|  **#339** ✅&nbsp;merged  | **[mpfaffenberger/code_puppy](https://github.com/mpfaffenberger/code_puppy)** · 830 ★ · 170k+ downloads | Fixed a Windows ripgrep bug where `shlex.split` corrupted regex (`\b`, `\d+`) and paths (`C:\Users`) → **silent zero-match results**. Backslashes preserved, real errors surfaced, regression tests added. |
+|  **#192** ✅&nbsp;merged  | **[mpfaffenberger/code_puppy](https://github.com/mpfaffenberger/code_puppy)** · 830 ★ · 170k+ downloads | Built the Synthetic provider status plugin + authenticated quota client — live usage limits, remaining quota, and renewal time from the agent CLI.                                                         |
 | **#63** ✅&nbsp;merged | **[code_puppy_core_plugins](https://github.com/mpfaffenberger/code_puppy_core_plugins)**                | Removed scan-time code execution from the tool registry: static AST parsing of metadata, deferred imports, `sys.path` precedence preserved, partial-module cleanup on failure. **47 tests** passing.       |
+| **#970** 🔄&nbsp;in review | **[mpfaffenberger/code_puppy](https://github.com/mpfaffenberger/code_puppy)** · 830 ★ · 170k+ downloads | Made the registry-scan fix mandatory for every install: raised the core dependency floor to the patched plugin release (`0.0.70`). Validated across **8,339 tests** on Python 3.13. |
 
 ---
 
@@ -27,7 +28,7 @@
 
 ### 🧠 SynthMRI — latent diffusion for synthetic multi-modal brain-tumour MRI
 
-**[Code](https://github.com/wasiqnauman/SynthMRI)** · **[Paper](https://github.com/wasiqnauman/SynthMRI/blob/main/paper/main.pdf)** · **[Results PDF](https://github.com/wasiqnauman/SynthMRI/blob/main/docs/SynthMRI_results.pdf)** · BraTS 2020 · 258 / 37 / 74 patient split
+**[Code](https://github.com/wasiqnauman/SynthMRI)** · **[Paper](https://github.com/wasiqnauman/SynthMRI/blob/main/paper/main.pdf)** · BraTS 2020 · 258 / 37 / 74 patient split
 
 <p>
 <img alt="FID" src="https://img.shields.io/badge/FID-10.45_(real_ceiling_9.55)-blue">
@@ -44,7 +45,7 @@
 
 ### ⚡ VeloInference — async dynamic-batching inference gateway
 
-**[Code](https://github.com/wasiqnauman/veloinference)** · **[Paper](https://github.com/wasiqnauman/veloinference/blob/main/paper/main.pdf)** · **[Analysis JSON](https://github.com/wasiqnauman/veloinference/blob/main/results/summaries/generated/exp003-analysis.json)** · Qwen2.5-1.5B · RTX 3060
+**[Code](https://github.com/wasiqnauman/veloinference)** · **[Paper](https://github.com/wasiqnauman/veloinference/blob/main/paper/main.pdf)** · Qwen2.5-1.5B · RTX 3060
 
 <p>
 <img alt="Requests" src="https://img.shields.io/badge/requests-6%2C912-blue">
@@ -115,3 +116,4 @@
 Open to ML-systems / inference / agentic-AI roles — [let's talk](mailto:wasiq.qureshi@hotmail.com)
 
 </div>
+
