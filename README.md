@@ -39,3 +39,5 @@ I contribute to [Code Puppy](https://github.com/mpfaffenberger/code_puppy), a wi
 **Working with:** Python · C++ · PyTorch · FastAPI · vLLM · Triton · LangChain · Docker · AWS
 
 I am looking to collaborate with researchers working on **ML systems, efficient inference, and reliable agentic AI**. If these questions overlap with your lab's work, [let's talk](mailto:wasiq.qureshi@hotmail.com).
+
+
